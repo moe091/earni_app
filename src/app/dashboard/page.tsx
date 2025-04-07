@@ -9,7 +9,7 @@ export default function Page() {
     const { status } = useSession();
     
     return (
-        <div className="h-screen w-screen flex flex-row">
+        <div className="h-screen w-screen flex flex-row  bg-[url(/bg.jpg)]">
             <Sidebar />
             <Dashboard />
         </div>
